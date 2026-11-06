@@ -8,8 +8,8 @@ function countCharacters(string)
   for (let i = 0; i < teks.length; i++) { 
     let huruf = teks[i];
 
-    // kalau spasi, lewati
-    if (huruf === " ") {
+    // kalau ada whitespace, abaikan
+    if (/\s/.test(huruf)) {
       continue;
     }
 
