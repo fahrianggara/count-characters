@@ -1,6 +1,6 @@
 function countCharacters(string) 
 {
-  // biar H dan h dianggap sama
+  // biar T dan t dianggap sama
   let teks = string.toLowerCase();
   let hasil = {};
 
